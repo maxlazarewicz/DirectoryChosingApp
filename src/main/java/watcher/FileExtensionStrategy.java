@@ -1,6 +1,7 @@
 package watcher;
 
 
+import counting.CountingWriter;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 
@@ -15,28 +16,33 @@ import java.util.Date;
 
 
 public class FileExtensionStrategy {
-   public void extensionStrategy(Path path) throws IOException {
+    CountingWriter countingWriter = new CountingWriter();
+
+    public void extensionStrategy(Path path) throws IOException {
        String extension = FilenameUtils.getExtension(path.toString());
        switch(extension){
            case "jar":
                Date date = getCreationDate(path);
                if(date.getHours()%2==0){
                    moveFileToDirectory(path, "Dev");
+                   countingWriter.devDirectoryCounter();
                }else{
                    moveFileToDirectory(path, "Test");
+                   countingWriter.testDirectoryCounter();
                }
 
                case "xml":
                moveFileToDirectory(path, "Dev");
+                   countingWriter.devDirectoryCounter();
        }
    }
     private void moveFileToDirectory(Path path, String dest) throws IOException {
        File from = new File(path.toString());
         String absolutePath = getAbsolutePath();
         String dir = new StringBuffer(absolutePath).append("/").append(dest).toString();
+
         File to = new File(dir);
         FileUtils.moveFileToDirectory(from, to, false);
-
     }
 
     private String getAbsolutePath() {

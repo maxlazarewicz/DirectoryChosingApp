@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6222734c-3a68-4331-bc64-088ed92478ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dev/xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/even.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/fasfa.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/init/DirectoryInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/init/FacadeInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/init/FileInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/watcher/FileExtensionStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/watcher/Watcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DirectorCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DirectorCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counting/CountingWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counting/CountingWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/watcher/FileExtensionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/watcher/FileExtensionStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/DirectorCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DirectorCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/watcher/FileExtensionStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/watcher/FileExtensionStrategy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,39 +102,43 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="449" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1665595242440" />
+    <state x="479" y="223" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1665739724113">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="223" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1665739724113" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1665512875366">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1665512875366" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1665596230835">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1665749682589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1665596230835" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1665413511726" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1665596230835">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1665749682589" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1665749682588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1665596230835" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1665413511725" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1665596230835">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1665749682588" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1665749682588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1665596230835" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1665413511725" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1665596230835">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1665749682588" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1665749682588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1665596230835" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1665413511726" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1665749682588" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1665242748981">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1665242748981" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1665512656440">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1665729956324">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1665242833690" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1665512656440" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1665729956324" />
     <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1665244209641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
