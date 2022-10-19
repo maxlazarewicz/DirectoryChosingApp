@@ -26,6 +26,7 @@ public class FileExtensionStrategy {
                if(date.getHours()%2==0){
                    moveFileToDirectory(path, "Dev");
                    countingWriter.devDirectoryCounter();
+                   break;
                }else{
                    moveFileToDirectory(path, "Test");
                    countingWriter.testDirectoryCounter();
@@ -34,6 +35,7 @@ public class FileExtensionStrategy {
                case "xml":
                moveFileToDirectory(path, "Dev");
                    countingWriter.devDirectoryCounter();
+                   break;
        }
    }
     private void moveFileToDirectory(Path path, String dest) throws IOException {
